@@ -1,0 +1,32 @@
+<html>
+<span style="position:absolute;z-index:1;
+left:535px;top:125px;width:300px;height:430px"><img width="300" height="430" 
+src="file:///C:/Users/Phil/Downloads/QuickBots%20Logo.png"" 
+v:shapes="_x0000_s1025"></span><font size="5"><h1 style=text-align:center;font-family:STENCIL;background-color:#00b050;color:black<font>Please type the password 
+to proceed
+</h1>
+<body style=text-align:center;><font size="5">
+<input type="password" id="input1" />
+<button onclick="myJsFunction()">Submit</button><p id="demo"></p>
+<script type="text/javascript">
+ function myJsFunction(){
+    var secret=document.getElementById('input1').value;
+            if (secret=="32411")
+            {
+
+window.open('file:///C:/Users/Phil/Desktop/Fll/Quickbots%20Website_files/Quickbots%20Home%20Page.htm');
+window.close('file:///C:/Users/Phil/Desktop/Fll/Quickbots%20Entry%20Page_files/Quickbots%20Entry%20Page.htm');    
+}
+else 
+{
+alert("Sorry, you entered " + "'" + secret + "'" + ".  That's not the correct code.  To try again, press Ctrl+R")
+}
+if (secret=="")
+{
+alert("Please enter the password")
+}
+ }
+</script>
+</font>
+</body>
+</html>
